@@ -1,0 +1,6 @@
+# Ignore compilation product
+docs/
+# Ignore compilation cache
+.sass-cache/
+# Ignore Apple specific
+.DS_Store
