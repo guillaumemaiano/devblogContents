@@ -39,18 +39,18 @@ I can then test it with ` docker run -it GemDockerExperiment`.
 
 A slightly more interesting Dockerfile prints HelloWorld:
 
-   # FROM gets an initial image to build from
-   ## busybox is a really bare starting point
-   FROM busybox:latest
-   # MAINTAINER is the maintainer's name and email
-   MAINTAINER Guillaume Maiano (guillaume@maiano.fr)
-   # CMD is an instruction that gets executed when the container runs
-   ## It uses the format CMD ["executable","param1","param2"] (and other more complex forms).
-   ## For example, CMD ["ls", "-la"] should list the files at container root
-   # ENTRYPOINT is a related instruction which specifies the default app (for example, a Kitura server app)
-   ## It can then use the CMD instruction to provide it with parameters (such as, for example, keys )
-   ENTRYPOINT ["/bin/echo"]
-   CMD ["hello world"]
+    # FROM gets an initial image to build from
+    ## busybox is a really bare starting point
+    FROM busybox:latest
+    # MAINTAINER is the maintainer's name and email
+    MAINTAINER Guillaume Maiano (guillaume@maiano.fr)
+    # CMD is an instruction that gets executed when the container runs
+    ## It uses the format CMD ["executable","param1","param2"] (and other more complex forms).
+    ## For example, CMD ["ls", "-la"] should list the files at container root
+    # ENTRYPOINT is a related instruction which specifies the default app (for example, a Kitura server app)
+    ## It can then use the CMD instruction to provide it with parameters (such as, for example, keys )
+    ENTRYPOINT ["/bin/echo"]
+    CMD ["hello world"]
 
 ## Docker-compose.yaml
 
