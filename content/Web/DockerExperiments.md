@@ -22,3 +22,20 @@ My only need is to understand how it really works to simplify my development pro
 # What?
 
 I want to use Docker Compose. For now, I understand I need a file defining my application's environment: `Dockerfile`, a YAML file defining the app itself as a collection of services called `docker-compose.yaml`, and running the Compose tool itself.
+
+## Dockerfile
+
+My extrasimple Dockerfile:
+
+    # FROM gets an initial image to build from
+    ## busybox is a really bare starting point
+    FROM busybox:latest
+    # MAINTAINER is the maintainer's name and email
+    ## It gets displayed during the build phase
+    MAINTAINER Guillaume Maiano (guillaume@maiano.fr)
+
+I build the machine with: `docker build -t GemDockerExperiment:latest .`
+
+## Docker-compose.yaml
+
+
