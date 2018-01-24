@@ -13,4 +13,12 @@ topics: [ "web", "VPS", "Kitura", "Docker"]
 tags: [ "Digital Ocean", "Dockerfile", "Docker Compose"]
 ---
 
+# Why?
 
+Docker is a powerful tool to provide developer environments, testing environments, or production environments, with similar characteristics (at least, that's how it got sold to me, Developer734896352762).
+It allows us to run our stateless services in isolated containers, but also (even though the Internet seems very conflicted about the practice) databases. Uber has a nice article explaining how much work they put into their MySQL dockerization.
+My only need is to understand how it really works to simplify my development process and be able to fully interact with my backend colleagues, and their friends over at the DevOps cubicles.
+
+# What?
+
+I want to use Docker Compose. For now, I understand I need a file defining my application's environment: `Dockerfile`, a YAML file defining the app itself as a collection of services called `docker-compose.yaml`, and running the Compose tool itself.
