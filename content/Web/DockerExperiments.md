@@ -52,6 +52,8 @@ A slightly more interesting Dockerfile prints HelloWorld:
     ENTRYPOINT ["/bin/echo"]
     CMD ["hello world"]
 
-## Docker-compose.yaml
+## Docker-compose.yml
 
+After some more experimenting, put the resulting file on [Github](github.com:guillaumemaiano/SmallDockerExperiments.git) for future reference.
 
+Overall, the conclusion is: the easiest way to build a development environment is to use docker-compose and compose slightly modified versions of already existing components (MySql container with settings set appropriately, self-tuned Kitura container, etc).
