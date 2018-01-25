@@ -3,7 +3,7 @@ title: "Certificates? Yes, but free."
 date: 2018-01-23T2:02:11+01:00
 draft: false
 cover_image: web_hugo_dev_cover.png
-excerpt:"I am working on the process of deploying a full pipeline app on a VPS, with certificates. This documents parts of the process." 
+excerpt: "I am working on the process of deploying a full pipeline app on a VPS, with certificates. This documents parts of the process." 
 authorname: Guillaume Maiano
 authorlink: http://guillaume.maiano.fr
 authortwitter: gmaiano
