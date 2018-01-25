@@ -1,9 +1,9 @@
 ---
-title: "Kitura on Digital Ocea,"
+title: "Kitura on Digital Ocean"
 date: 2018-01-22T12:31:18+02:00
 draft: false
 cover_image: apple-MBP.JPG
-excerpt: "Essential steps to (re)installing my developer machine"
+excerpt: "Installing Kitura on my Digital Ocean node" 
 authorname: Guillaume Maiano
 authorlink: http://guillaume.maiano.fr
 authortwitter: gmaiano
