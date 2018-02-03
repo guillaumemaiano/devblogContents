@@ -1,6 +1,6 @@
 ---
 title: "Kotlin: Global Landslides"
-date: 2018-01-22T12:31:18+02:00
+date: 2018-02-02T19:17:00+02:00
 draft: false
 cover_image: atlantis-launchpad-BIngalls.JPG
 excerpt: "Creating an app displaying NASA's Global Landslides data, using Kotlin on Android" 
