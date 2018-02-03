@@ -50,3 +50,11 @@ The gradle command in Powershell was `.\gradlew addCredentials --key NASA_API_Ke
  ### Credits
  
  The [image](https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Brightly_lit_STS-135_on_launch_pad_39a.jpg/2880px-Brightly_lit_STS-135_on_launch_pad_39a.jpg) comes from Wikimedia, was created by Bill Ingalls and I believe is originally a NASA picture. Also, it looks fantastic and has nothing to do whatsoever with landslides.
+
+### Interesting Kotlin links
+
+Swift [comparison](http://nilhcem.com/swift-is-like-kotlin/)
+
+Comparison between the two from a company peddling a [translation tool](https://hackernoon.com/kotlin-and-swift-best-programming-languages-to-boost-developer-productivity-963ca8aec554). I still think platform-specific code is the correct way to go, but I fear that dream of "one-time development" will always raise its ugly head, year after year. Anyway, what's interesting is the comparison, not the tool.
+
+Developer from San Francisco who thinsk Swift/Kotlin hail a [transformative experience](https://codeburst.io/kotlin-and-swift-is-it-a-new-mobile-development-era-b4c5e81feb08) for developers
