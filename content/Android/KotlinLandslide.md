@@ -1,9 +1,9 @@
 ---
-title: "Kotlin: Globzal Landslides"
+title: "Kotlin: Global Landslides"
 date: 2018-01-22T12:31:18+02:00
 draft: false
-cover_image: apple-MBP.JPG
-excerpt: "Creating an app displaying NASA's Global LAndslides data, using Kotlin on Android" 
+cover_image: atlantis-launchpad-BIngalls.JPG
+excerpt: "Creating an app displaying NASA's Global Landslides data, using Kotlin on Android" 
 authorname: Guillaume Maiano
 authorlink: http://guillaume.maiano.fr
 authortwitter: gmaiano
@@ -36,3 +36,11 @@ I've set the app's Github repository at http://git@github.com:guillaumemaiano/La
 
 I started with creating a new project in Android Studio and creating a new API key for NASA's developer APIs (it's actually a api.data.gov key). Once created, I can start using this key to make web service requests, says the NASA email. Thank you, O great Computer Server Overlord. I set that project to enable Kotlin support.
  I then activated etiennestuder's Gradle Credentials plugin, so as to not send my API key unto the Github repository. This requires a few lines added into the Gradle configuration, and a gradle task to tell gradle what the key is...
+ 
+ ## SODA's endpoint
+ 
+ The landslides data is accessible at https://data.nasa.gov/resource/tfkf-kniw.json.
+ 
+ ### Credits
+ 
+ The (image)[https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Brightly_lit_STS-135_on_launch_pad_39a.jpg/2880px-Brightly_lit_STS-135_on_launch_pad_39a.jpg] comes from Wikimedia, was created by Bill Ingalls and I believe is originally a NASA picture. Also, it looks fantastic and has nothing to do whatsoever with landslides.
