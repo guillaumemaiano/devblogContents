@@ -35,10 +35,10 @@ I've set the app's Github repository at http://git@github.com:guillaumemaiano/La
 ## First things first
 
 I started with creating a new project in Android Studio and creating a new API key for NASA's developer APIs (it's actually a api.data.gov key). Once created, I can start using this key to make web service requests, says the NASA email. Thank you, O great Computer Server Overlord. I set that project to enable Kotlin support.
- I then activated etiennestuder's Gradle Credentials plugin, so as to not send my API key unto the Github repository. This requires a few lines added into the Gradle configuration, and a gradle task to tell gradle what the key is...
+ I then activated etiennestuder's Gradle Credentials [plugin](https://github.com/etiennestuder/gradle-credentials-plugin), so as to not send my API key unto the Github repository. This requires a few lines added into the Gradle configuration, and a gradle task to tell gradle what the key is...
 I used Powershell CLI (I've decided I needed to get used to Windows as a platform for Android development) to run my gradle command (it will launch .\gradlew from any android studio project folder), but I had to set `JAVA_HOME` beforehand, running Powershell as an administrator. Apparently it wasn't set in my Powershell. 
 
-The gradle command in Powershell was `.\gradlew addCredentials --key NASA_API_Key`--value maclef`.
+The gradle command in Powershell was `.\gradlew addCredentials --key NASA_API_Key --value maclef`.
 
 
 
