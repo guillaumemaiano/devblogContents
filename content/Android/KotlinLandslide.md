@@ -43,4 +43,4 @@ I started with creating a new project in Android Studio and creating a new API k
  
  ### Credits
  
- The (image)[https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Brightly_lit_STS-135_on_launch_pad_39a.jpg/2880px-Brightly_lit_STS-135_on_launch_pad_39a.jpg] comes from Wikimedia, was created by Bill Ingalls and I believe is originally a NASA picture. Also, it looks fantastic and has nothing to do whatsoever with landslides.
+ The [image](https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Brightly_lit_STS-135_on_launch_pad_39a.jpg/2880px-Brightly_lit_STS-135_on_launch_pad_39a.jpg] comes from Wikimedia, was created by Bill Ingalls and I believe is originally a NASA picture. Also, it looks fantastic and has nothing to do whatsoever with landslides.
