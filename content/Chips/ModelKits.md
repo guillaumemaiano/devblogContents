@@ -27,13 +27,13 @@ This model has a magnet in the nose, which can be used as a hidden switch.
 
 ## Tomcat
 
-The Tomcat might be the most famous fighter in existence. This model has a magnet in the nose, which, just like my Dallas, can be used to trigger a reed switch. This means I just have to slightly move the model to trigger illumination of the base. Sadly, I haven't yet found the time to actually build the base...
+The Tomcat might be the most famous fighter in existence. This model has a magnet in the nose, which, just like my Dallas, can be used to trigger a reed switch. This means I just have to slightly move the model to trigger illumination of the base. Sadly, I haven't yet found the time to actually build the base, which means a lot of modeling... only the electronics work.
 
-![Nose, separated](images/content-img/tomcat-disassembled.jpg)
+![Nose, separated](/images/content-img/tomcat_disassembled.jpg)
 
 Hardware-wise, the electronics are simple: a reed switch connected to set of powered-LEDs. Since reed switches cut power entirely when the magnet's not present, it just works.
 
-![Nose, attached](/images/content-img/tomcat-assembled.jpg)
+![Nose, attached](/images/content-img/tomcat_assembled.jpg)
 
 ## Aventador
 
@@ -43,7 +43,7 @@ The Aventador is the iconic Lamborghini of the turn of the XXIth century. This A
 
 What I intend to do here is to use an Arduino connected to LEDs and some fiber optics to bring the light to the appropriate locations. I will be able to switch the lighting via bluetooth thanks to a transceiver card.
 
-![Bluetooth transceiver](content-images/transceiver.jpg)
+![Bluetooth transceiver](/images/content-img/bluetooth_transceiver.jpg)
 
 This actually is the most complex project, because the model available space is very small.
 
@@ -51,8 +51,8 @@ This actually is the most complex project, because the model available space is 
 
 Japan's F15, the F15-J, looks pretty awesome, and I'm building a model at 1:48. I'll use an arduino-compatible card with an integrated bluetooth transceiver here. The fun part here are the small amount of programming needed to blink the position lights (for example), and switch the lighting according to the plane state (taxiing, etc).
 
-![Eagle](content-img/eagle1.jpg)
+![Eagle](/images/content-img/eagle1.jpg)
 
-![Eagle](content-img/eagle2.jpg)
+![Eagle](/images/content-img/eagle2.jpg)
 
-![Eagle](content-img/eagle3.jpg)
+![Eagle](/images/content-img/eagle3.jpg)
